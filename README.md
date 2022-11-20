@@ -14,8 +14,8 @@ Alat dan Bahan yang digunakan
 
 Langkah Percobaan
 1) Instalasi Board ESP32 pada Arduino IDE
-    a. Buka Arduino IDE
-    b. Kemudian klik Menu File > Preferences
+    a) Buka Arduino IDE
+    b) Kemudian klik Menu File > Preferences
     ![image](https://user-images.githubusercontent.com/118364435/202906449-c52e0bec-617e-4805-b56e-0c67ff45f2f0.png)
     c. Pada kolom Additional ... yang ada dibawah, tambahkan link berikut
         https://dl.espressif.com/dl/package_esp32_index.json
