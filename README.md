@@ -26,6 +26,8 @@ https://user-images.githubusercontent.com/118364435/205869167-469e0ad0-b962-457f
 
 
    
+   Analisa : Pada percobaan ini digunakan 1 LED dan 1 Button. Sesuai dengan script yang dijalankan, dari hasil keluaran didapatkan bahwa jika button ditekan maka LED akan menyala, dan akan mati ketika button dilepas.  
+   
    
    **GPIO 2** - Kemudian, tambahkan 1 LED dan 1 button lagi. Untuk LED kedua ini, buat interval waktu 2 detik. Jadi walaupun button tetap ditekan, jika waktunya sudah habis, maka LED akan mati.
   
@@ -37,6 +39,8 @@ https://user-images.githubusercontent.com/118364435/205868044-29076271-7217-477d
 
 
 
+   Analisa : Pada percobaan GPIO 2 ini ditambahkan 1 LED dan 1 Button lagi (dalam gambar rangkaiannya langsung pada rangkaian GPIO 3). Sesuai dengan script yang dijalankan, hasil keluaran didapatkan bahwa jika button2 ditekan maka LED akan menyala 5 detik dan mati 5 detik, akan terus seperti itu selama button2 ditekan. Dan LED akan mati jika button2 dilepas.
+   
    
    **GPIO 3** - Kemudian, tambahkan 3 LED dan 1 button. Kendalikan 3 LED ini dengan 1 button tersebut agar bisa menyala berurutan.
    ![Rangkaian GPIO 2 3](https://user-images.githubusercontent.com/118364435/202908300-b8061740-f844-459d-b440-590476ca890d.jpg)
@@ -47,7 +51,9 @@ https://user-images.githubusercontent.com/118364435/205869545-c57e26b4-fe09-4084
 
 
 
-
+   Analisa : Pada percobaan GPIO 3, ditambahkan 3 LED dan 1 Button (3 LED dikendalikan 1 button tsb). Sesuai dengan script yang dijalankan, maka dari hasil keluaran didapatkan bahwa ketika button3 ditekan maka LED akan menyala running dari kiri ke kanan dengan interval masing-masing LED selama 1 sekon. Dan LED akan mati ketika button3 dilepas.
+   
+   
 **3) Mengakses PWM ESP32**
 
    Buatlah rangkaian seperti ini, kemudian running-kan dengan 2 script berbeda. Script pertama hanya menyalakan 1 LED di pin 16. Sedangkan script kedua menyalakan 3 LED.
