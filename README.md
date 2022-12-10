@@ -62,15 +62,15 @@ https://user-images.githubusercontent.com/118364435/205869545-c57e26b4-fe09-4084
   
   Keluaran
    
-   Menyalakan 1 LED
+   **Menyalakan 1 LED (PWM 1)**
    
 
 https://user-images.githubusercontent.com/118364435/205869809-1e5971b0-0ce2-4f73-b829-358f9b8e290b.mp4
 
 
    
-
-   Menyalakan 3 LED
+   Analisa : Pada percobaan ini digunakan metode PWM (Pulse Width Modulation) yaitu pendekatan plebaran pulsa dengan menghasilkan nilai tegangan analog dengan maksimal tegangan HIGH 3,3 V dan LOW 0 V. Pin pada PWM ini mengeluarkan sinyal digital yang dihasilkan dari dutty cycle (perbandingan HIGH dan LOW dalam 1 periode). Pada percobaan PWM 1 dengan 1 LED ini digunakan frekuensi 5000 Hz dan resolusi 8 bit (255 byte). Dari script yang dijalankan, LED akan menyala 5x lebih terang dari penglihatan mata manusia (karena 5000 Hz)
+   **Menyalakan 3 LED (PWM 2)**
    
 
 https://user-images.githubusercontent.com/118364435/205870856-af8190a7-3198-4989-bda3-b49280051de9.mp4
