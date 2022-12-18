@@ -70,6 +70,7 @@ https://user-images.githubusercontent.com/118364435/205869809-1e5971b0-0ce2-4f73
 
    
    Analisa : Pada percobaan ini digunakan metode PWM (Pulse Width Modulation) yaitu pendekatan plebaran pulsa dengan menghasilkan nilai tegangan analog dengan maksimal tegangan HIGH 3,3 V dan LOW 0 V. Pin pada PWM ini mengeluarkan sinyal digital yang dihasilkan dari dutty cycle (perbandingan HIGH dan LOW dalam 1 periode). Pada percobaan PWM 1 dengan 1 LED ini digunakan frekuensi 5000 Hz dan resolusi 8 bit (255 byte). Dari script yang dijalankan, LED akan menyala 5x lebih terang dari penglihatan mata manusia (karena 5000 Hz)
+   
    **Menyalakan 3 LED (PWM 2)**
    
 
@@ -91,7 +92,9 @@ https://user-images.githubusercontent.com/118364435/205873237-cc5a747f-8774-47ac
 
 
 
-
+   
+   Analisa : Pada percobaan ADC dan DAC 1 ini digunakan potensiometer 4K Ohm sebagai pembaca analog mulai dari 0 sampai 4095. ADC / DAC ini adalah coverter yang mengubah nilai analog ke digital maupun digital ke analog, dimana pembacaan nilai 0 setara dengan 0 V dan nilai 4095 setara dengan 3,3 V. Dalam percobaan ADC/DAC 1 ini, pada keluaran didapatkan apabila potensio diputar ke kanan maka nilainya akan bertambah sampai maksimum 4095 (3,3V), dan apabila diputar ke kiri maka nilainya akan berkurang sampai minimum 0 (0 V) dengan waktu 0,5 sekon tiap pembacaan pada serial monitor.
+   
    **ADC DAC 2** - Kemudian tambahkan LED pada rangkaian tersebut. Putar potensio dan lihat apa yang terjadi pada LED dan serial monitor.
    ![Rangkaian AC DC 2](https://user-images.githubusercontent.com/118364435/202908811-c60a98cb-611e-4486-8671-2c14c4bee06b.jpg)
    Keluaran
@@ -99,3 +102,5 @@ https://user-images.githubusercontent.com/118364435/205873237-cc5a747f-8774-47ac
 
 https://user-images.githubusercontent.com/118364435/205873793-a0d2ccac-3ddd-455c-a7e4-1f94fec1a5c4.mp4
 
+
+   Analisa : Pada percobaan ADC/DAC 2 ini hampir sama dengan ADC/DAC 1, namun perbedaannya hanya pada menambahkan LED untuk memastikan apakah benar jika nilainya bertambah maka voltasenya akan bertambah pula. Pada keluaran didapatkan bahwa jika potensio diputar ke kanan, maka nilai akan bertambah sampai maksimum 4095 dan voltase akan mencapai maksimum 3,3 V. Ini bisa dibuktikan dengan lampu LED yang terpasang. Ketika nilai bertambah, dapat dilihat LED akan menyala lebih terang dari kondisi awal. Dan ketika potensio diputar ke kiri, maka LED akan redup lalu kemudian mati jika nilainya mencapai 0 atau 0 Volt. 
