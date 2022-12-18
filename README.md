@@ -69,7 +69,7 @@ https://user-images.githubusercontent.com/118364435/205869809-1e5971b0-0ce2-4f73
 
 
    
-   Analisa : Pada percobaan ini digunakan metode PWM (Pulse Width Modulation) yaitu pendekatan plebaran pulsa dengan menghasilkan nilai tegangan analog dengan maksimal tegangan HIGH 3,3 V dan LOW 0 V. Pin pada PWM ini mengeluarkan sinyal digital yang dihasilkan dari dutty cycle (perbandingan HIGH dan LOW dalam 1 periode). Pada percobaan PWM 1 dengan 1 LED ini digunakan frekuensi 5000 Hz dan resolusi 8 bit (255 byte). Dari script yang dijalankan, LED akan menyala 5x lebih terang dari penglihatan mata manusia (karena 5000 Hz)
+   Analisa : Pada percobaan ini digunakan metode PWM (Pulse Width Modulation) yaitu pendekatan pelebaran pulsa dengan menghasilkan nilai tegangan analog dengan maksimal tegangan HIGH 3,3 V dan LOW 0 V. Pin pada PWM ini mengeluarkan sinyal digital yang dihasilkan dari dutty cycle (perbandingan HIGH dan LOW dalam 1 periode). Pada percobaan PWM 1 dengan 1 LED ini digunakan frekuensi 5000 Hz dan resolusi 8 bit (255 byte). Dari script yang dijalankan, LED akan menyala 5x lebih terang dari penglihatan mata manusia (karena 5000 Hz) dengan dutty cycle 100%. Karena terdapat delay 0,015 sekon, maka LED akan redup dengan kecepatan 0,015 sekon, lalu kemudian akan terang kembali.
    
    **Menyalakan 3 LED (PWM 2)**
    
@@ -78,6 +78,7 @@ https://user-images.githubusercontent.com/118364435/205870856-af8190a7-3198-4989
 
 
 
+   Analisa : Pada percobaan ini hampir sama dengan PWM 1, namun pada PWM 2 digunakan 3 LED sekaligus. Dari script yang dijalankan juga menggunakan frekuensi 5000 Hz, resolusi 8 bit, dan dutty cycle 100%. Dan akan terjadi redup dengan delay 0,015 sekon secara bersamaan dan kembali terang secara bersamaan pula.
 
 **4) ADC dan DAC**
 
